@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.header {
+    /* определяем модель flex-box для блока .header */
+    display: flex;
+    flex-direction: column; /* выстраиваем в колонку по оси Y */
+    justify-content: center; /* Выравнивание элементов по центру главной оси flex-box контейнера */
+    align-items: center; /* Центрировать элементы в поперечной оси */
+
+    width: 100%;
+    height: 100vh;
+    background-color: #556983;
+    background-image: url(./../img/header_BG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-arrow {
+    position: absolute;
+}
