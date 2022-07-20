@@ -13,7 +13,14 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #7fa2cf;
 }
+
+.none {
+    display: none !important;
+}
+
+/* Header */
 
 .header {
     position: relative;
@@ -62,4 +69,21 @@ body {
     /* left: 50%; */
     /* margin-left: -24px; */
     transform: translate(-50%, 0);
+}
+
+/* portfolio */
+
+.portfolio {
+    background-color: darkseagreen;
+    padding-top: 80px;
+    padding-bottom: 115px;
+
+}
+
+.portfolio-header {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
 }
