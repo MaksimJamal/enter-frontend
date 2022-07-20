@@ -1,9 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'IBM Plex Serif', serif;
 }
 
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header {
+    position: relative;
     /* определяем модель flex-box для блока .header */
     display: flex;
     flex-direction: column; /* выстраиваем в колонку по оси Y */
@@ -16,6 +29,7 @@ body {
     background-image: url(./../img/header_BG.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .header-title {
@@ -40,5 +54,12 @@ body {
 }
 
 .header-arrow {
+    width: 48px;
+    height: 48px;
+    /* background-color: red; */
     position: absolute;
+    bottom: 30px;
+    /* left: 50%; */
+    /* margin-left: -24px; */
+    transform: translate(-50%, 0);
 }
